@@ -1,20 +1,31 @@
 import styled from 'styled-components'
 export const Container = styled.div`
     header{
-        max-width: 1120px;
-        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 1rem 2rem;
         color: #fff;
-        background-color: #000;
+        background-color: transparent;
         hr{
-            width: 100%;
+            width: 80%;
+            border: .5px solid var(--text-body)
         }
-        nav{ 
-
+        nav{
+            width: 100%;
+            padding: 1rem 2rem
+        }
+        ul{
+            display: flex;
+           justify-content: center;
+            li{
+                margin-inline: 2rem;
+                a{
+                    color: var(--text-body);
+                    font-weight: bold;
+                }
+            }
         }
     }
 `
