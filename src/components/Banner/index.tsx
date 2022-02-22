@@ -1,3 +1,4 @@
+import { Values } from "../Values"
 import { Container, Content } from "./styles"
 
 export function Banner(){
@@ -10,9 +11,10 @@ export function Banner(){
             <p className="subtitle">
             Lorem ipsum dolor sit amen.
             </p>
+            <Values/>
             </Content>
-         
         </Container>
+        
             
     )
 }
