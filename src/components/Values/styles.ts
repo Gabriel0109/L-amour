@@ -6,6 +6,21 @@ export const Container = styled.div`
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
     div{
-       
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: .5rem;
+       svg{
+           width: 2.7rem;
+           height: 2.7rem;
+       }
+       p{ 
+           color: var(--text-body);
+           font-weight: 600;
+       }
+       small{
+        color: var(--text-body);
+       }
     }
 `
