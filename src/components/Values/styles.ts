@@ -11,7 +11,7 @@ export const Container = styled.div`
        justify-content: center;
        align-items: center;
        padding: .5rem;
-       svg{
+       img{
            width: 2.7rem;
            height: 2.7rem;
        }
