@@ -19,6 +19,7 @@ export function Values(){
                 <img src={shop} alt="Cupcake" />
                 <p>Main text</p>
                 <small>small text</small>
+            </div>
         </Container>
     )
 }
