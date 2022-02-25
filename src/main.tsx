@@ -4,6 +4,7 @@ import './index.css'
 import App from './App'
 import { createServer } from 'miragejs';
 
+
 createServer({
   routes() {
     this.namespace = 'api'
@@ -13,7 +14,6 @@ createServer({
         {
           name: 'Cesta Soft',
           description: 'Cesta ideal para 1 pessoa',
-          src_url: './assets/img/bread.jpg'
         },
         {
           name: 'Cesta Premium',
