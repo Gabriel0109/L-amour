@@ -9,12 +9,11 @@ export const Container = styled.section`
 export const Content = styled.div`
     h1{
         font-size: 3.4rem;
-        font-family: 'NewYork';
-        max-width: 800px;
         text-align: center;
         color: var(--text-body);
         span{ 
             color:var(--text-pink);
+            display: block;
         }
     }
     .subtitle{

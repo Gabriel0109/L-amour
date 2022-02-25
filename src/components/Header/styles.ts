@@ -9,7 +9,7 @@ export const Container = styled.div`
         color: #fff;
         background-color: transparent;
         hr{
-            width: 80%;
+            width: 100%;
             border: .5px solid var(--text-body)
         }
         nav{
