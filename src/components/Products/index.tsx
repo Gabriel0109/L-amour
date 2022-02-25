@@ -1,4 +1,4 @@
-export function ProductsCarousel() {
+export function Products() {
     return (
         <h1>oi</h1>
     )
