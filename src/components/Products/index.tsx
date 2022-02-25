@@ -1,5 +1,12 @@
+import { ProductsCarousel } from "../ProductsCarousel";
+import { Container } from "./styles";
+
+
+
 export function Products() {
     return (
-        <h1>oi</h1>
+        <Container>
+            <ProductsCarousel />
+        </Container>
     )
 }

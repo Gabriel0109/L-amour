@@ -64,4 +64,7 @@ export const GlobalStyle = createGlobalStyle`
         opacity:0.6;
         cursor: not-allowed;
     }
+    ::selection{
+        background-color: rgba(0  ,0  ,0  ,0.1);
+    }
 `
