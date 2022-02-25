@@ -8,7 +8,7 @@ export const Container = styled.section`
 `
 export const Content = styled.div`
     h1{
-        font-size: 3.4rem;
+        font-size: 4.4rem;
         text-align: center;
         color: var(--text-body);
         span{ 

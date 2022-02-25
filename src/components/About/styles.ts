@@ -11,12 +11,18 @@ export const Content = styled.div`
         .img-fluid{
         display: block;
         width: 100%;
+        height: 82%;
         border-top-left-radius: 10rem;
         border-bottom-right-radius: 10rem;
         }
         h1{ 
                 color: var(--text-body);
-                font-size: 3.4rem;
+                font-size: 4.4rem;
+                margin-bottom: 3rem;
 
+        }
+        p{
+                color: var(--text-body);
+                line-height: 1.5rem
         }
 `
