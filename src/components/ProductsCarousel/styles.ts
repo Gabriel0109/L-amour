@@ -14,3 +14,6 @@ margin: 15px;
 font-size: 4em;
 
 `
+export const Container = styled.section`
+padding: 3rem;
+`

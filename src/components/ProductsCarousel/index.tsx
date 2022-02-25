@@ -1,4 +1,8 @@
+import { useEffect, useState } from 'react';
 import Carousel from 'react-elastic-carousel'
+import { api } from '../../services/api'
+import { ItemCarousel } from '../ItemCarousel';
+import { Container } from './styles'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -6,14 +10,32 @@ const breakPoints = [
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 3, itemsToScroll: 1 }
 ];
+interface Cestas {
+    name: string,
+    description: string,
+}
 export function ProductsCarousel() {
-
+    const [products, setProducts] = useState<Cestas[]>([])
+    useEffect(() => {
+        api.get('products')
+            .then(response => setProducts(response.data))
+    }, [])
     return (
-        <Carousel
-            isRTL={false}
-            breakPoints={breakPoints}
-        >
+        <Container>
 
-        </Carousel>
+            <Carousel
+                isRTL={false}
+                breakPoints={breakPoints}
+            >
+                {products.map(cestas => {
+                    return <ItemCarousel
+                        key={cestas.name}
+                        name={cestas.name}
+                        description={cestas.description}
+                    />
+                })}
+            </Carousel>
+        </Container>
+
     )
 }

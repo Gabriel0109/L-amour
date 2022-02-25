@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { About } from './components/About'
 import { Banner } from './components/Banner'
-import { Products } from './components/Products'
 import { Header } from './components/Header'
+import { ProductsCarousel } from './components/ProductsCarousel'
 import { Container, GlobalStyle } from './styles/global'
 function App(): JSX.Element {
   return (
@@ -11,7 +11,7 @@ function App(): JSX.Element {
         <Header />
         <Banner />
         <About />
-        <Products />
+        <ProductsCarousel />
       </Container>
       <GlobalStyle />
     </>

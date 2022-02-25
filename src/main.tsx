@@ -8,12 +8,24 @@ createServer({
   routes() {
     this.namespace = 'api'
 
-    this.get('/items', () => {
+    this.get('/products', () => {
       return [
         {
           name: 'Cesta Soft',
           description: 'Cesta ideal para 1 pessoa',
           src_url: './assets/img/bread.jpg'
+        },
+        {
+          name: 'Cesta Premium',
+          description: 'Cesta ideal para 2 pessoas',
+        },
+        {
+          name: 'Cesta Unique',
+          description: 'Cesta ideal para 1 pessoa',
+        },
+        {
+          name: 'Cesta Tradicional',
+          description: 'Cesta ideal para 3 pessoas',
         }
       ]
     })

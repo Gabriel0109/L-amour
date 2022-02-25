@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const CestaWrap = styled.div`
+export const CestaWrapper = styled.div`
 `
