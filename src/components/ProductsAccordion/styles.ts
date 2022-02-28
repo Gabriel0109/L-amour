@@ -18,3 +18,26 @@ padding: 2rem;
     }
 
 `
+export const CestaItem = styled.div`
+    display: flex;
+    max-width: 100%;
+    ul{
+        list-style-type: '-';
+        padding-left: 1.2rem
+    }
+    p{ 
+        font-weight: 600;
+    }
+    .div-ingredients{
+        padding-inline: 1.2rem
+    }
+    .div-img{
+        width: 33%
+    }
+    img{ 
+        display: block;
+        width: 100%;
+        border-radius: 24px
+    }
+    
+` 
