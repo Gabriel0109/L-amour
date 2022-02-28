@@ -5,7 +5,7 @@ export function Header(){
     return(
        <Container>
            <header>
-                {/* <img src="" alt="" /> */}
+                {/* <img src="" alt="L'amour Cestas&Cia." /> */}
                 <div>
                     Logo
                 </div>

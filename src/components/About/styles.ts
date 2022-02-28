@@ -22,7 +22,6 @@ export const Content = styled.div`
                 color: var(--text-body);
                 font-size: 4.4rem;
                 margin-bottom: 3rem;
-
         }
         p{
                 color: var(--text-body);

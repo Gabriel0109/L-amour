@@ -9,7 +9,7 @@ export function ProductAccordion() {
     return (
         <>
             <Container>
-                <Accordion defaultActiveKey={['0']} alwaysOpen>
+                <Accordion defaultActiveKey={['0']}>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Cesta Soft</Accordion.Header>
                         <Accordion.Body>
@@ -19,6 +19,7 @@ export function ProductAccordion() {
                                </div>
                                <div className='div-ingredients'>
                                    <p>Ingredientes:</p>
+                                  
                                    <ul>
                                        <li>1 Suco natural de laranja</li>
                                        <li>1 Drip coffee</li>
@@ -34,10 +35,14 @@ export function ProductAccordion() {
                                        <li>Fruta da estação</li>
                                        <li>Cesta de pão-de-queijo e Palmier folhada doce</li>
                                    </ul>
+                                 
                                    <small>
                                        Acompanha arranjo de flores e cesta mdf.
                                    </small>
                                </div>
+                               <div className="pricing">
+                                       R$ 165,00
+                                   </div>
                             </CestaItem>
                         </Accordion.Body>
                     </Accordion.Item>
