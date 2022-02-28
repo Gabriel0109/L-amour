@@ -6,17 +6,17 @@ export function Values(){
     return (
         <Container>
             <div>
-                <img src={cup} alt="Cupcake" />
+                <img src={cup} alt="Caneca de café" />
                 <p>Main text</p>
                 <small>small text</small>
             </div>
             <div>
-                <img src={ croassaint} alt="Cupcake" />
+                <img src={ croassaint} alt="Croassaint" />
                 <p>Main text</p>
                 <small>small text</small>
             </div>
             <div>
-                <img src={shop} alt="Cupcake" />
+                <img src={shop} alt="Loja" />
                 <p>Main text</p>
                 <small>small text</small>
             </div>

@@ -10,7 +10,6 @@ export function Header(){
                     Logo
                 </div>
                 <hr />
-                
                 <nav>
                     <ul>
                         <li><a href="">Home</a></li>

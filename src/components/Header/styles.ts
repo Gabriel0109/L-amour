@@ -24,8 +24,14 @@ export const Container = styled.div`
                 a{
                     color: var(--text-body);
                     font-weight: bold;
+                    white-space: nowrap;
                 }
             }
+        }
+    }
+    @media screen and (max-width: 767.9px){
+        hr, nav {
+            display: none !important;
         }
     }
 `

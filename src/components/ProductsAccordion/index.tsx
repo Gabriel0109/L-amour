@@ -15,7 +15,7 @@ export function ProductAccordion() {
                         <Accordion.Body>
                             <CestaItem>
                                <div className='div-img'>
-                               <img src={CestaSoft} alt="" />
+                               <img src={CestaSoft} alt="Cesta Soft" />
                                </div>
                                <div className='div-ingredients'>
                                    <p>Ingredientes:</p>

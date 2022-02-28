@@ -3,6 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.section`
         display: flex;
         padding: 2rem;
+        @media screen and (max-width: 610px){
+                flex-direction: column;
+        }
         
 `
 export const Content = styled.div`
@@ -24,5 +27,8 @@ export const Content = styled.div`
         p{
                 color: var(--text-body);
                 line-height: 1.5rem
+        }
+        @media screen and (max-width: 610px){
+                width: 100%;
         }
 `

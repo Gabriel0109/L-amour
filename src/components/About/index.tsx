@@ -5,7 +5,7 @@ export function About() {
         <>
             <Container>
                 <Content className="left">
-                    <img className="img-fluid" src={Bread} alt="" />
+                    <img className="img-fluid" src={Bread} alt="Baguetes" />
                 </Content>
                 <Content className="right">
                     <h1>Quem somos nós?</h1>
