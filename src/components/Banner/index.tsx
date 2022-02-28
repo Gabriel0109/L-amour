@@ -6,7 +6,7 @@ export function Banner() {
         <Container>
             <Content>
                 <h1>
-                    Lorem ipsum dolor sit amen. <span>Morbi dapibus magna diam</span>
+                    Cestas de café da manhã artesanais <span>Com muito amor e carinho</span>
                 </h1>
                 <p className="subtitle">
                     Lorem ipsum dolor sit amen.

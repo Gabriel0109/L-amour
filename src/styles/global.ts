@@ -67,4 +67,10 @@ export const GlobalStyle = createGlobalStyle`
     ::selection{
         background-color: rgba(0  ,0  ,0  ,0.1);
     }
+    @font-face {
+        font-family: 'NewYork';
+        src: url('./assets/fonts/NewYork.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
 `
