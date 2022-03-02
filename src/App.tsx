@@ -3,6 +3,7 @@ import { About } from './components/About'
 import { Banner } from './components/Banner'
 import { Header } from './components/Header'
 import { ProductAccordion } from './components/ProductsAccordion'
+import { CommentsCarousel } from './components/CommentsCarousel'
 import { Container, GlobalStyle } from './styles/global'
 function App(): JSX.Element {
   return (
@@ -12,7 +13,7 @@ function App(): JSX.Element {
         <Banner />
         <About />
         <ProductAccordion/>
-        {/* <ProductsCarousel /> */}
+        <CommentsCarousel />
       </Container>
       <GlobalStyle />
     </>

@@ -21,6 +21,11 @@ export const Container = styled.div`
            font-weight: 600;
            text-align: center;
        }
+       @media screen and (max-width: 610px){
+           p{
+               white-space: pre-wrap;
+           }
+       }
        small{
         color: var(--text-body);
        }

@@ -1,5 +1,6 @@
 import Carousel from 'react-elastic-carousel'
-import { Container } from './styles'
+import pfp from '../../assets/img/pfp.jpeg'
+import { Container, ItemCarousel } from './styles'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -14,8 +15,32 @@ export function CommentsCarousel() {
             <Carousel
                 isRTL={false}
                 breakPoints={breakPoints}
+                showArrows={false}
             >
-
+                <ItemCarousel>
+                    <header>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere ipsum nisi, eget elementum leo lacinia eu. "</p>
+                    </header>
+                    <small>
+                        nome pessoa
+                    </small>
+                </ItemCarousel>
+                <ItemCarousel>
+                    <header>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere ipsum nisi, eget elementum leo lacinia eu. "</p>
+                    </header>
+                    <small>
+                        nome pessoa
+                    </small>
+                </ItemCarousel>
+                <ItemCarousel>
+                    <header>
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere ipsum nisi, eget elementum leo lacinia eu. "</p>
+                    </header>
+                    <small>
+                        nome pessoa
+                    </small>
+                </ItemCarousel>
             </Carousel>
         </Container>
 

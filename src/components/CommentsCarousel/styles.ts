@@ -2,16 +2,19 @@ import styled from "styled-components";
 
 
 export const ItemCarousel = styled.section`
+    padding: 1rem 2rem;
+    width: 50%;
+    background-color: #fff;
+    color: var(--text-body);
+    margin: 15px;
+    border-radius: 1rem;
+   small{ 
+       float: right;
+       opacity: 0.8
+   }
 
-display: flex;
-justify-content: center;
-align-items: center;
-height: 250px;
-width: 100%;
-background-color: transparent;
-color: #fff;
-margin: 15px;
-font-size: 4em;
+        
+    }
 
 `
 export const Container = styled.section`

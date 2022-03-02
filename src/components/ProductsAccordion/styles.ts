@@ -16,6 +16,12 @@ padding: 2rem;
     .accordion-button{
         font-weight: 600;
     }
+    h1{
+        color: var(--text-body);
+        font-size: 3.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 
 `
 export const CestaItem = styled.div`

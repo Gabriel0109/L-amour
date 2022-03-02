@@ -9,6 +9,7 @@ export function ProductAccordion() {
     return (
         <>
             <Container>
+            <h1>Conheça nossos produtos</h1>
                 <Accordion defaultActiveKey={['0']}>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Cesta Soft</Accordion.Header>
