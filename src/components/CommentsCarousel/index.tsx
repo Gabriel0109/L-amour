@@ -1,5 +1,4 @@
 import Carousel from 'react-elastic-carousel'
-import pfp from '../../assets/img/pfp.jpeg'
 import { Container, ItemCarousel } from './styles'
 
 const breakPoints = [
@@ -8,14 +7,18 @@ const breakPoints = [
     { width: 768, itemsToShow: 1 },
     { width: 1200, itemsToShow: 1, itemsToScroll: 1 }
 ];
+
 export function CommentsCarousel() {
+    
     return (
         <Container>
-
+            <h1>O quem dizem sobre nós</h1>
             <Carousel
                 isRTL={false}
                 breakPoints={breakPoints}
                 showArrows={false}
+                enableAutoPlay={true}
+                autoPlaySpeed={2500}
             >
                 <ItemCarousel>
                     <header>
