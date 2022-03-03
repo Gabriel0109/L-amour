@@ -17,8 +17,6 @@ export function CommentsCarousel() {
                 isRTL={false}
                 breakPoints={breakPoints}
                 showArrows={false}
-                enableAutoPlay={true}
-                autoPlaySpeed={2500}
             >
                 <ItemCarousel>
                     <header>
