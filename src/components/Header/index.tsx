@@ -12,10 +12,10 @@ export function Header(){
                 <hr />
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Sobre nós</a></li>
-                        <li><a href="">Produtos</a></li>
-                        <li><a href="">Feedback</a></li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">Sobre nós</a></li>
+                        <li><a href="#Products">Produtos</a></li>
+                        <li><a href="#Comments">Feedback</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
                 </nav>
