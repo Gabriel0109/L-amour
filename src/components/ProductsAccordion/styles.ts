@@ -52,6 +52,7 @@ export const CestaItem = styled.div`
         white-space: nowrap;
         width: 33%;
         text-align: right;
+        font-weight: bolder;
     }
     @media screen and (max-width: 767.9px){
         .div-img{
