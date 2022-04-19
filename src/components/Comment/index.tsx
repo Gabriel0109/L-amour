@@ -7,7 +7,7 @@ import { CommentWrapper } from "./styles";
 export function Comment() {
 
     return (
-        <CommentWrapper>
+        <CommentWrapper id="Comments">
             <CommentsCarousel/>
         </CommentWrapper>
     )

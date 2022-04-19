@@ -3,7 +3,7 @@ import { Container, Content } from "./styles"
 
 export function Banner() {
     return (
-        <Container>
+        <Container id="Home">
             <Content>
                 <h1>
                     Cestas de café da manhã artesanais <span>Com muito amor e carinho</span>

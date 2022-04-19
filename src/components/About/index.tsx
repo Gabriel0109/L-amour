@@ -3,7 +3,7 @@ import Bread from '../../assets/img/bread.jpg'
 export function About() {
     return (
         <>
-            <Container>
+            <Container id="About">
                 <Content className="left">
                     <img className="img-fluid" src={Bread} alt="Baguetes" />
                 </Content>
