@@ -4,16 +4,18 @@ import { Banner } from './components/Banner'
 import { Header } from './components/Header'
 import { ProductAccordion } from './components/ProductsAccordion'
 import { CommentsCarousel } from './components/CommentsCarousel'
+import {Soon } from './components/Soon'
 import { Container, GlobalStyle } from './styles/global'
 function App(): JSX.Element {
   return (
     <>
       <Container>
-        <Header />
+        {/* <Header />
         <Banner />
         <About />
         <ProductAccordion/>
-        <CommentsCarousel />
+        <CommentsCarousel /> */}
+        <Soon/>
       </Container>
       <GlobalStyle />
     </>
